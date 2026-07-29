@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+:root {
+  /* Brand Colors */
+  --primary: #14b8a6;        /* Teal */
+  --primary-dark: #0f766e;
+  --primary-light: #76a69f;
+
+  --secondary: #3b82f6;      /* Blue */
+  --secondary-dark: #1d4ed8;
+  --secondary-light: #93c5fd;
+
+  --accent: #f97316;         /* Orange */
+  --accent-dark: #ea580c;
+  --accent-light: #fdba74;
+
+  /* Success */
+  --success: #22c55e;
+  --success-light: #86efac;
+
+  /* Warning */
+  --warning: #f59e0b;
+  --warning-light: #fde68a;
+
+  /* Danger */
+  --danger: #ef4444;
+  --danger-light: #fca5a5;
+
+  /* Neutral */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Gray Scale */
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  /* Background */
+  --bg-light: #ffffff;
+  --bg-dark: #01040d;
+
+  /* Text */
+  --text-light: #030c20;
+  --text-dark: #f8fafc;
+
+  /* Borders */
+  --border-light: #e5e7eb;
+  --border-dark: #334155;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 5px rgba(0,0,0,0.08);
+  --shadow-md: 0 5px 15px rgba(0,0,0,0.12);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,0.18);
+}
