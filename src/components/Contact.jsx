@@ -50,7 +50,7 @@ const Contact = () => {
             id: 5,
             icon: <FaFacebook size={28} />,
             title: "Facebook",
-            value: "facebook.com/Rafiq",
+            value: "facebook.com/Rafiq khan",
             link: "https://www.facebook.com/share/18yUjor1bK/",
             color: "hover:text-blue-500",
         },
