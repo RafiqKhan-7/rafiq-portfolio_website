@@ -63,7 +63,7 @@ function Hero() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link to="/work" className="px-6 cursor-pointer py-2 text-sm rounded-full bg-gradient-to-r from-teal-400 to-teal-700 font-light text-white hover:opacity-70 transition-opacity">View My Works</Link>
 
-              <Link to={cv} download className={`px-6 cursor-pointer py-2 text-sm rounded-full bg-gray-400 backdrop-blur-md font-light text-white hover:opacity-70 transition-opacity ${darkMode? "bg-orange-600": ""}`}>Download CV</Link>
+              <a href={cv} download={cv} className={`px-6 cursor-pointer py-2 text-sm rounded-full bg-gray-400 backdrop-blur-md font-light text-white hover:opacity-70 transition-opacity ${darkMode? "bg-orange-600": ""}`}>Download CV</a>
             </div>
           </div>
 
