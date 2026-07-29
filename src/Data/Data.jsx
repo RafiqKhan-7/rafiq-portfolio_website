@@ -92,8 +92,8 @@ export const portfolioItems = [
       "A responsive online store built with React, Tailwind CSS, and API integration.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRby3Twv08dVpI4W7P1LKsnledunm3lckKQ5Y3RYyllZQ&s=10",
     technologies: ["React", "Tailwind CSS", "API"],
-    link: "https://example.com",
-    git:"https://example.com"
+    link: "https://products-gray-ten.vercel.app/",
+    git:"https://github.com/Rafiq-khan5533/Products"
   },
   {
     title: " Todo Management App",
