@@ -17,10 +17,7 @@ function Hero() {
         id="home"
         className={`relative min-h-screen flex items-center justify-center  pt-16 pb-20 text-black ${darkMode ? "bg-gray-900 text-white" : "bg-white text-black"}`}
       >
-        {/* Background */}
-        {/* <div className="absolute inset-0 bg-[url('./assets/slider.png')] bg-center bg-cover bg-no-repeat"></div> */}
 
-        {/* Overlay */}
         <div className="absolute inset-0"></div>
 
         {/* Content */}
@@ -54,7 +51,7 @@ function Hero() {
               <Link to ="https://www.instagram.com/rk_kharoty?igsh=anhlOTNuazJpeWd2" target="_blank" className={`p-3 bg-gray-300 rounded-full hover:bg-teal-400 transition-colors ${darkMode? "bg-gray-600":""}`}>
                 <FaInstagramSquare />
               </Link>
-              <Link to ="https://github.com/Rafiq-khan5533" target="_blank" className={`p-3 bg-gray-300 rounded-full hover:bg-teal-400 transition-colors ${darkMode? "bg-gray-600":""}`}>
+              <Link to ="https://github.com/RafiqKhan-7" target="_blank" className={`p-3 bg-gray-300 rounded-full hover:bg-teal-400 transition-colors ${darkMode? "bg-gray-600":""}`}>
                 <FaGithub />
               </Link>
              
